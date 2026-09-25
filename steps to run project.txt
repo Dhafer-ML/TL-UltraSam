@@ -1,0 +1,20 @@
+1- open Anaconda Prompt
+2- run setup_ultrasam_windows.bat from Path cd /d "C:\Users\Tabor2021\anaconda3\Breast cancer aldubayani models\Advanced model\Ultrasam"
+3-conda activate UltraSam
+4-Kernel → Change Kernel → Python (UltraSam)
+5-Kernel → Restart Kernel and Run All Cells
+
+
+
+
+Ultrasam : Image Encoder
+    		 ↓
+	   Prompt Encoder
+ 	         ↓
+	   Mask Decoder
+
+TLUltrasam :
+
+Image Encoder     → Frozen ❄️
+Prompt Encoder    → Frozen أو partially trainable
+Mask Decoder      → Trainable ✅
